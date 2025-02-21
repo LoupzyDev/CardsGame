@@ -7,19 +7,17 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Floor
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Name: M_Eye
+  m_Shader: {fileID: -6465566751694194690, guid: 56232711e4f7b184f8713f267aa2f93e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _SPECULAR_SETUP
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap:
-    RenderType: Opaque
+  stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
   m_LockedProperties: 
@@ -87,6 +85,8 @@ Material:
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
+    - _Backface_Brightness: 2.6
+    - _Backface_Gradient_Stretch: 1.23
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
@@ -96,33 +96,54 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
+    - _Distortion: 0.1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
+    - _Front_Face_Clipping: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
+    - _Pulse_Frequency: 0.2
+    - _Pulse_Scale: 1.9
+    - _Pulse_Width: 0.14
+    - _QueueControl: 0
     - _QueueOffset: 0
+    - _Randomness: 5
     - _ReceiveShadows: 1
-    - _Smoothness: 0.381
+    - _Rim_Brightness: 5
+    - _Rim_Gradient_Stretch: 1.76
+    - _Rim_Power: 3.14
+    - _Shadow_Strength: 1
+    - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
+    - _Speed: 0.39
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
+    - _Stretch_Tinting_Gradient: 3
     - _Surface: 0
-    - _WorkflowMode: 0
+    - _TintingBrightness: 2.05
+    - _Vertex_Intensity: 1.49
+    - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _Albedo_Tinting: {r: 0.2442708, g: 0, b: 1, a: 1}
+    - _Albedo_Tinting_2: {r: 0.37506914, g: 0, b: 1, a: 1}
+    - _Backface_Color: {r: 0, g: 0.0035750866, b: 1, a: 1}
+    - _Backface_Color_2: {r: 0.3665886, g: 0, b: 1, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RimColor: {r: 0.9140396, g: 0, b: 1, a: 0}
+    - _RimColor2: {r: 0.5850363, g: 0, b: 1, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &1409158687408266979
+--- !u!114 &8481302874792637909
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
