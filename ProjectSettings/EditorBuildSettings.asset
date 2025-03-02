@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/LoupzyDev/Level/Scenes/Prototype.unity
+    path: Assets/LoupzyDev/Level/Scenes/Sc_Sand.unity
     guid: b6ce1f67a04c8754ca9edea030cc5bd1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
